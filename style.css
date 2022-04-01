@@ -11,102 +11,10 @@
 
 }
 
-@media and all (max-width: 1024px)
+#article
 {
-
-	section
-	{
-	display: block;
-	width: auto;
-	}
-
-	#liseret
-	{
-	display: none;
-	}
-
-	#contenu
-	{
-	width: auto;
-	}
-
-
+    display: flex;
+		flex-wrap: nowrap;
+		justify-content: right;
+		background-color: cadetblue;
 }
-
-
-body
-{
-	background-image: url("img/background.jpg");
-}
-
-h1
-{
-	text-shadow: 1px 1px 1px black;
-}
-
-h1, h2
-{
-	font-family: 'robotoblack_italic', Arial, sans-serif;
-}
-
-h1, h1 + p
-{
-	text-align: center;
-}
-
-img
-{
-	float: right;
-	border: 2px solid black;
-	box-shadow: 2px 2px 2px black;
-
-}
-
-h2
-{
-	color: green;
-	box-shadow: 2px 2px 2px black;
-}
-
-section
-{
-	display: inline-block;
-	vertical-align: top;
-	width: 22%;
-	margin: 2%;
-
-}
-
-ul
-{
-	font-family: 'robotoblack_italic', Arial, sans-serif;
-}
-
-#outilleur
-{
-	text-align: center;
-	font-weight: bold;
-	color:blue;
-	text-shadow: 1px 1px 1px black;
-}
-
-#liseret, #contenu
-{
-	display: inline-block;
-	vertical-align: top;
-}
-
-#liseret
-{
-	width: 10%;
-	margin-right: 3%;
-	height: 700px;
-	background-image: url('lodyas.png');
-	border-radius: 10px;
-}
-
-#contenu
-{
-	width: 85%;
-}
-
