@@ -11,10 +11,75 @@
 
 }
 
-#article
+.bloc_entier
+{
+
+    width:1000px;
+    height:900px;
+    margin: auto;
+    display: flex;
+
+}
+
+.bloc_gauche
+{
+    width:25%;
+    height:900px;
+    background-color: darkgreen;
+
+}
+
+.bloc_droit
+{
+    width:75%;
+    height:900px;
+    background-color: cadetblue;
+}
+
+.nom
+{
+    width:100%;
+    height:15%;
+    background-color: azure;
+}
+
+.presentation
 {
     display: flex;
-		flex-wrap: nowrap;
-		justify-content: right;
-		background-color: cadetblue;
+    background-color: blueviolet;
+}
+
+.exp_par
+{
+    display: flex;
+    width:100%;
+    height:55%;
+    background-color: chartreuse;
+}
+
+.experience
+{
+    width:50%;
+    background-color: darkgoldenrod;
+}
+
+.parcours
+{
+    width:50%;
+    background-color: deepskyblue;
+}
+
+.contact
+{
+    background-color: darkslategray;
+}
+
+.interets
+{
+    background-color: crimson;
+}
+
+.reseaux
+{
+    background-color: coral;
 }
